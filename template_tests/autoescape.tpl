@@ -1,4 +1,6 @@
+{% autoescape on %}
 {{ "<script>alert('xss');</script>" }}
+{% endautoescape %}
 {% autoescape off %}
 {{ "<script>alert('xss');</script>" }}
 {% endautoescape %}

@@ -41,7 +41,7 @@ get_digit
 1234567890
 
 safe
-&lt;script&gt;
+<script>
 <script>
 
 escape
@@ -123,7 +123,7 @@ urlencode
 http%3A%2F%2Fwww.example.org%2Ffoo%3Fa%3Db%26c%3Dd
 
 linebreaksbr
-this is a text&lt;br /&gt;with a new line in it
+this is a text<br />with a new line in it
 
 hallo
 
@@ -224,7 +224,7 @@ ad minim veniam, quis nostrud
 exercitation
 
 iriencode
-?foo=123&amp;bar=yes
+?foo=123&bar=yes
 
 linebreaks
 
