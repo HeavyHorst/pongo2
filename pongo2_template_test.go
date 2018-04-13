@@ -77,6 +77,7 @@ func BannedFilterFn(in *pongo2.Value, params *pongo2.Value) (*pongo2.Value, *pon
 
 func init() {
 	pongo2.DefaultSet.Debug = true
+	pongo2.SetAutoescape(false)
 
 	pongo2.RegisterFilter("banned_filter", BannedFilterFn)
 	pongo2.RegisterFilter("unbanned_filter", BannedFilterFn)
